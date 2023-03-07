@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+img{
+    float: left;
+    width: 74%;
+    border: 5px double;
+}
+
+.menuh{
+    overflow: hidden;
+    border: 5px double;
+}
+
+.menuv{
+    float: left;
+    width: 26%;
+    overflow: hidden;
+    border: 5px double;
+}
+
+.menuv a{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menuv a:hover{
+    background-color: rgb(190, 231, 190);
+    color: black;
+}
+
+.menuh a{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+.menuh a:hover{
+    background-color: rgb(219, 215, 177);
+    color: black;
+}
